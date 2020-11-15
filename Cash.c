@@ -10,7 +10,8 @@ int main(void)
     do
     {
         printf("Change owed: ");
-        scanf("%d", &k);
+        scanf("%f", &k);
+        printf("%f\n", k);
     }
     while (k <= 0);
     int cents = round(k * 100);
